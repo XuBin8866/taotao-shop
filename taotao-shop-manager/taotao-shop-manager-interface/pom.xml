@@ -11,5 +11,11 @@
 
     <artifactId>taotao-shop-manager-interface</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.xxbb</groupId>
+            <artifactId>taotao-shop-manager-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
