@@ -1,0 +1,7 @@
+# Project exclude paths
+/taotao-shop-common/target/
+/taotao-shop-manager/taotao-shop-manager-dao/target/
+/taotao-shop-manager/taotao-shop-manager-interface/target/
+/taotao-shop-manager/taotao-shop-manager-pojo/target/
+/taotao-shop-manager/taotao-shop-manager-service/target/
+/taotao-shop-manager-web/target/
