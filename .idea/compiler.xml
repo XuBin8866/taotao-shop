@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="taotao-shop-manager-web" />
-        <module name="taotao-shop-manager-interface" />
-        <module name="taotao-shop-manager-dao" />
         <module name="taotao-shop-common" />
         <module name="taotao-shop-manager-pojo" />
         <module name="taotao-shop-manager-service" />
+        <module name="taotao-shop-manager-web" />
+        <module name="taotao-shop-manager-interface" />
+        <module name="taotao-shop-manager-dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
