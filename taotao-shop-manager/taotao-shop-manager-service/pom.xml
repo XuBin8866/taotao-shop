@@ -15,7 +15,18 @@
     <name>taotao-shop-manager-service Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.xxbb</groupId>
+            <artifactId>taotao-shop-manager-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xxbb</groupId>
+            <artifactId>taotao-shop-manager-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
@@ -24,16 +35,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.xxbb</groupId>
-                <artifactId>taotao-shop-manager-interface</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.xxbb</groupId>
-                <artifactId>taotao-shop-manager-dao</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
             <!-- Spring -->
             <dependency>
                 <groupId>org.springframework</groupId>

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/taotao-shop-dubbo-admin" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-manager/taotao-shop-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-manager/taotao-shop-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-shop-web-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

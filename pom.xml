@@ -12,6 +12,8 @@
     <module>taotao-shop-common</module>
     <module>taotao-shop-manager</module>
     <module>taotao-shop-manager-web</module>
+    <module>taotao-shop-web-demo</module>
+      <module>taotao-shop-dubbo-admin</module>
   </modules>
 
   <name>taotao-shop</name>
@@ -239,6 +241,7 @@
   </dependencies>
 
   <build>
+
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
