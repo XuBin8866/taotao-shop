@@ -14,6 +14,13 @@
   <name>taotao-shop-common</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  <dependencies>
+    <dependency>
+      <groupId>net.coobird</groupId>
+      <artifactId>thumbnailator</artifactId>
+      <version>0.4.8</version>
+    </dependency>
+  </dependencies>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +29,12 @@
   </properties>
   <dependencyManagement>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
+    <dependency>
+      <groupId>net.coobird</groupId>
+      <artifactId>thumbnailator</artifactId>
+      <version>0.4.8</version>
+    </dependency>
     <!-- 时间操作组件 -->
     <dependency>
       <groupId>joda-time</groupId>
