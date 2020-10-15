@@ -1,6 +1,7 @@
 package com.taotao.controller;
 
 
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,15 +24,13 @@ public class ItemController {
     @RequestMapping("/{itemId}")
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId){
-        TbItem tbItem=itemService.getItemById(itemId);
-        return tbItem;
+        return itemService.getItemById(itemId);
     }
 
-
-    @RequestMapping("/hi")
-    public String sayHi(){
-        System.out.println("hiiiiiiiiiiiiiiigh!!!");
-        return "success";
+    @RequestMapping("/save")
+    @ResponseBody
+    public TaotaoResult saveItem(TbItem item,String desc){
+        return itemService.addItem(item,desc);
     }
 
 }

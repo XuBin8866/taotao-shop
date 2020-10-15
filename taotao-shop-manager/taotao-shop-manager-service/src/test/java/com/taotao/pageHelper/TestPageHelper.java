@@ -9,12 +9,19 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.Date;
 import java.util.List;
 
 /**
  * @author xxbb
  */
 public class TestPageHelper {
+
+    @Test
+    public void testDate(){
+        Date date=new Date();
+        System.out.println(date);
+    }
     @Test
     public void testPageHelper() throws Exception{
         //1.配置好分页插件

@@ -34,6 +34,7 @@ public class PictureController {
         } catch (Exception e) {
             resultMap.put("error",1);
             resultMap.put("message","图片上传失败");
+            System.out.println(e.getMessage());
             return resultMap;
         }
     }
