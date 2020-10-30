@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-content-service" />
+        <module name="taotao-shop-web-demo" />
+        <module name="taotao-content-interface" />
+        <module name="taotao-shop-manager-service" />
+        <module name="taotao-search-service" />
+        <module name="taotao-search-interface" />
         <module name="taotao-portal-web" />
         <module name="taotao-shop-manager-web" />
         <module name="taotao-shop-manager-interface" />
         <module name="taotao-shop-manager-dao" />
-        <module name="taotao-shop-web-demo" />
-        <module name="taotao-content-interface" />
         <module name="taotao-shop-common" />
         <module name="taotao-shop-manager-pojo" />
-        <module name="taotao-shop-manager-service" />
         <module name="taotao-shop-dubbo-admin" />
       </profile>
     </annotationProcessing>

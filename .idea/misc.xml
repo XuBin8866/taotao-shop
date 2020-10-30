@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/taotao-content/taotao-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/taotao-search/taotao-search-service" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-dubbo-admin" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/taotao-shop-manager/taotao-shop-manager-service" />
