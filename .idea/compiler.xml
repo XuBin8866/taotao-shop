@@ -9,6 +9,7 @@
         <module name="taotao-content-service" />
         <module name="taotao-shop-web-demo" />
         <module name="taotao-content-interface" />
+        <module name="taotao-search-web" />
         <module name="taotao-shop-manager-service" />
         <module name="taotao-search-service" />
         <module name="taotao-search-interface" />
