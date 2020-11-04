@@ -25,4 +25,6 @@
     <dubbo:application name="taotao-portal-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.17.2:2181"/>
     <dubbo:reference interface="com.taotao.search.service.SearchItemService" id="searchItemService" />
+    <dubbo:reference interface="com.taotao.search.service.SearchService" id="searchService"/>
+
 </beans>
